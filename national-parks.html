@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Epic Traverse - Home</title>
+    <title>Epic Traverse - National Parks</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -17,16 +17,15 @@
         <li><a href="mountains.html">Mountains Info</a></li>
       </ul>
     </nav>
-    <main>
-      <p>
-        <h2>Welcome to Epic Traverse!
+    <label for="locationDropdown">Select Location:</label>
+    <select id="locationDropdown">
+        <option value="0">Select Location</option>
+    </select>
 
-        Where finding the best national parks and mountains lead to a journey beyond boundaries.
-        </h2>
+    <label for="typeDropdown">Select Type:</label>
+    <select id="typeDropdown"></select>
 
-        Explore Nature's Grand Tapestry, Uncover Majestic Peaks, and Embark on Adventures that Transcend the Ordinary.
-        Discover the Wilderness. Embrace the Tranquility. Begin Your Epic Traverse Today!
-      </p>
-    </main>
+    <div id="parkPlaceHolder"></div>
+    <script src="parkSearch.js"></script>
   </body>
 </html>
