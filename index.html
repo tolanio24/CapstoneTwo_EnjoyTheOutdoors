@@ -4,8 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Epic Traverse - Home</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <style>
+      body {
+        background-color: #f8f9fa;
+        background-image: url("images/Lafayette-StoryImage_2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: "Arial", sans-serif;
+        color: #555;
+        margin-bottom: 60px; 
+      }
+
+      header {
+        background-color: black;
+        padding-bottom: 20px;
+      }
+
+      nav {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      main {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      .jumbotron {
+        background-color: #f8f9fa;
+        color: black;
+        text-align: center;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      select.form-control {
+        margin-bottom: 15px;
+      }
+
+      #parkPlaceHolder {
+        margin-top: 20px;
+      }
+
+      .btn-primary {
+        color: #fff;
+        background-color: black;
+        border-color: brown;
+        margin-right: 10px;
+      }
+
+      .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+      }
+
+      .navbar-nav .nav-link {
+        color: #007bff;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: black;
+      }
+
+      footer {
+        background-color: black;
+        color: #fff;
+        padding: 20px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <header class="bg-dark text-white text-center py-3">
@@ -14,25 +95,58 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="national-parks.html">National Parks</a></li>
-        <li class="nav-item"><a class="nav-link" href="mountains.html">Mountains Info</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="national-parks.html">National Parks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mountains.html">Mountains Info</a>
+        </li>
       </ul>
     </nav>
     <main class="container mt-5">
       <div class="jumbotron">
-        <h2 class="display-4 text-center">Welcome to Epic Traverse!</h2>
-        <p class="lead text-center">
-            "Where finding the best national parks and mountains leads to a journey beyond boundaries."
+        <h2 class="display-4">Welcome to Epic Traverse!</h2>
+        <p class="lead">
+          "Where finding the best national parks and mountains leads to a
+          journey beyond boundaries."
         </p>
-        <hr class="my-4">
-        <p class="text-center">
-          Explore Nature's Grand Tapestry, Uncover Majestic Peaks, and Embark on Adventures that Transcend the Ordinary.
-          Discover the Wilderness. Embrace the Tranquility. Begin Your Epic Traverse Today!
+        <hr class="my-4" />
+        <p>
+          Explore Nature's Grand Tapestry, Uncover Majestic Peaks, and Embark on
+          Adventures that Transcend the Ordinary. Discover the Wilderness.
+          Embrace the Tranquility. Begin Your Epic Traverse Today! Chart your course through diverse landscapes, and relish in the boundless beauty that awaits you. Welcome to a platform that goes beyond conventional travel, inviting you to embark on a journey that promises both adventure and serenity.
         </p>
+        <a
+          class="btn btn-primary btn-lg"
+          href="national-parks.html"
+          role="button"
+          >National Parks</a
+        >
+        <a
+          class="btn btn-primary btn-lg"
+          href="national-parks.html"
+          role="button"
+          >Mountains</a>
       </div>
     </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <footer class="text-center">
+      <p>&copy; 2023 Epic Traverse. All rights reserved.</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
