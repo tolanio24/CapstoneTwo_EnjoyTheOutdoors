@@ -26,10 +26,14 @@ This is where your dive into an Epic Traverse Begins!
 
 ## Interesting Code Snippet
 
- <main class="container mt-5">
-      <div class="jumbotron">
-        <h2 class="display-4">Welcome to Epic Traverse!</h2>
-        <p class="lead">
-          "Where finding the best national parks and mountains leads to a
-          journey beyond boundaries."
-        </p>
+      <a
+          class="btn btn-primary btn-lg"
+          href="national-parks.html"
+          role="button"
+          >National Parks</a
+        >
+        <a
+          class="btn btn-primary btn-lg"
+          href="national-parks.html"
+          role="button"
+          >Mountains</a>
